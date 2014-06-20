@@ -1,4 +1,4 @@
-Needle
+Needle (Seaton Edits)
 ======
 
 [![NPM](https://nodei.co/npm/needle.png)](https://nodei.co/npm/needle/)
