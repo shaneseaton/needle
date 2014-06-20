@@ -1,16 +1,16 @@
--{
- -    "name": "needlefix"
- -  , "version": "0.0.1"
- -  , "description": "Tiny yet feature-packed HTTP client. With multipart, charset decoding and proxy support."
- -  , "keywords": ["http", "https", "simple", "request", "client", "multipart", "upload", "proxy", "deflate", "timeout", "charset", "iconv"]
- -  , "tags": ["http", "https", "simple", "request", "client", "multipart", "upload", "proxy", "deflate", "timeout", "charset", "iconv"]
- -  , "author": "Shane Seaton Tomás Pollak <tomas@forkhq.com>"
- -  , "repository": { "type": "git", "url": "https://github.com/shaneseaton/needle.git" }
- -  , "dependencies": { "qs": "", "iconv-lite": "" }
- -  , "devDependencies": { "mocha": "", "sinon": "", "should": "", "xml2js": "", "JSONStream": "", "q": "", "jschardet": "" }
- -  , "scripts": { "test": "mocha test" }
- -  , "directories" : { "lib" : "./lib" }
- -  , "main": "./lib/needle"
- -  , "bin": {"needle": "./bin/needle"}
- -  , "engines": { "node": ">= 0.10.x" }
- -}
+{
+     "name": "needlefix"
+   , "version": "0.0.1"
+   , "description": "Tiny yet feature-packed HTTP client. With multipart, charset decoding and proxy support."
+   , "keywords": ["http", "https", "simple", "request", "client", "multipart", "upload", "proxy", "deflate", "timeout", "charset", "iconv"]
+   , "tags": ["http", "https", "simple", "request", "client", "multipart", "upload", "proxy", "deflate", "timeout", "charset", "iconv"]
+   , "author": "Shane Seaton Tomás Pollak <tomas@forkhq.com>"
+   , "repository": { "type": "git", "url": "https://github.com/shaneseaton/needle.git" }
+   , "dependencies": { "qs": "", "iconv-lite": "" }
+   , "devDependencies": { "mocha": "", "sinon": "", "should": "", "xml2js": "", "JSONStream": "", "q": "", "jschardet": "" }
+   , "scripts": { "test": "mocha test" }
+   , "directories" : { "lib" : "./lib" }
+   , "main": "./lib/needle"
+   , "bin": {"needle": "./bin/needle"}
+   , "engines": { "node": ">= 0.10.x" }
+ }
